@@ -1,4 +1,4 @@
-{% set version = "1.1.4" %}
+{% set version = "1.1.5" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/datamods_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/datamods/datamods_{{ version }}.tar.gz
-  sha256: e1dd22860aa3b12b6a527538d01b6c039bbb6cabd60fb01cc3b8f983a656ef87
+  sha256: ff1925efd945877bbee01c8a0bcf75797cca8d3bab6ceac3fc4291ae9989115a
 
 build:
   merge_build_host: true  # [win]
