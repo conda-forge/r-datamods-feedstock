@@ -26,10 +26,10 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
-    - r-dt
     - r-data.table
     - r-htmltools
     - r-phosphoricons
+    - r-reactable
     - r-readxl
     - r-rio
     - r-rlang
@@ -38,10 +38,10 @@ requirements:
     - r-tibble
   run:
     - r-base
-    - r-dt
     - r-data.table
     - r-htmltools
     - r-phosphoricons
+    - r-reactable
     - r-readxl
     - r-rio
     - r-rlang
