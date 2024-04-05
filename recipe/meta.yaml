@@ -26,9 +26,9 @@ requirements:
     - cross-r-base {{ r_base }}    # [build_platform != target_platform]
   host:
     - r-base
+    - r-classint
     - r-data.table
     - r-htmltools
-    - r-htmlwidgets
     - r-phosphoricons
     - r-reactable
     - r-readxl
@@ -38,12 +38,13 @@ requirements:
     - r-shinywidgets >=0.7.3
     - r-shinybusy
     - r-tibble
+    - r-toastui >=0.3.3
     - r-writexl
   run:
     - r-base
+    - r-classint
     - r-data.table
     - r-htmltools
-    - r-htmlwidgets
     - r-phosphoricons
     - r-reactable
     - r-readxl
@@ -53,6 +54,7 @@ requirements:
     - r-shinywidgets >=0.7.3
     - r-shinybusy
     - r-tibble
+    - r-toastui >=0.3.3
     - r-writexl
 
 test:
