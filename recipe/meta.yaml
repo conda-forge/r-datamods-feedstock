@@ -1,4 +1,4 @@
-{% set version = "1.5.1" %}
+{% set version = "1.5.2" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,10 +9,10 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/datamods_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/datamods/datamods_{{ version }}.tar.gz
-  sha256: d7102a0d296170396a0defb2fe4bfd6d4b9cbfc762b42435587127190050ae2f
+  sha256: 6d8150bf2007949b32255c845b87c02060e45238fba89c7064b74df4171d1a3c
 
 build:
-  number: 1
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
